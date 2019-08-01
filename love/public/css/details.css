@@ -1,0 +1,142 @@
+/*定制规格参数按钮的颜色*/
+#details>div:nth-child(5)>div .btn-outline-secondary:hover{
+  color:#0069d9;
+  background-color:#f5f5f5;
+  border-color:#e4393c;
+}
+#details>div:nth-child(5)>div .btn-outline-secondary.active{
+  color:#6c757d;
+  background-color:#f5f5f5;
+  border-color:#e4393c;
+  border-width:2px;
+}
+/*定制数量按钮的颜色*/
+#details>div:nth-child(6) .btn-outline-secondary{
+  width:30px;
+}
+#details>div:nth-child(6) .btn-outline-secondary:hover,
+#details>div:nth-child(6) .btn-outline-secondary:active,
+#details>div:nth-child(6) .btn-outline-secondary:focus{
+  color:#6c757d;
+  background-color:#f5f5f5;
+  border-color:#0069d9;
+  box-shadow: none;
+}
+/*定制立即购买按钮背景色*/
+#details>div:nth-child(7)>a:first-child{
+  background:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+}
+
+/*定制放大镜样式*/
+#preview>.card>.card-body>div{
+  width:248px;
+  overflow:hidden;
+}
+#preview>.card>.card-body>div>ul{
+  transition:all .5s linear;
+}
+#preview>.card>.card-body>div>ul>li{
+  width:82px; height:62px;
+}
+#preview>.card>.card-body>div>ul img{
+  width:52px; height:52px;
+}
+#preview>.card>.card-body>div>ul img:hover{
+  border:1px solid #e4393c;
+}
+#preview>div>img{width:354px}
+#mask{
+  width:176px; height:176px;
+  background-color:#ffa;
+  opacity:.5;
+}
+#super-mask{
+  width:354px; height:266px;
+}
+#div-lg{
+  width:320px; height:320px;
+  left:354px;
+  z-index:1000;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  overflow:hidden;
+}
+/*定制为你推荐部分的样式*/
+#recommend{
+  width:915px;
+  border-color: 1px solid rgba(0, 0, 0, 0.125);
+  overflow:hidden;
+}
+#recommend>ul>li{
+  width:220px;
+}
+/*订制商品详情部分的样式*/
+#main>nav.navbar{
+  background:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+  box-shadow:0px 3px 6px #ccc
+}
+#main>nav.navbar .active{
+  margin-top:2px;
+  border-bottom:3px solid #0069d9;
+}
+#params .col-md-2>.btn{
+  background: linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+  box-shadow:0px 3px 4px #ccc
+}
+#params .col-md-10>div>ul>li{
+  width: 237px;
+}
+.alert-lightgray {
+  color: #383d41;
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+.btn-outline-rose {
+  color: rgba(229,117,156,.35);
+  background-color: transparent;
+  background-image: none;
+  border-color: rgba(229,117,156,.35);
+  width: 120px;
+  height: 30px;
+}
+
+.btn-outline-rose:hover {
+  color: #DF5986;
+  background-color: #fff;
+  border-color: #DF5986;
+}
+
+.btn-outline-rose:focus, .btn-outline-rose.focus {
+  box-shadow: 0 0 0 0.2rem rgba(229,117,156,.35);
+}
+
+.btn-outline-rose.disabled, .btn-outline-rose:disabled {
+  color: #DF5986;
+  background-color: transparent;
+}
+.btn-outline-rose:not(:disabled):not(.disabled):active, .btn-outline-rose:not(:disabled):not(.disabled).active,
+.show > .btn-outline-rose.dropdown-toggle {
+  color: #fff;
+  background-color: #DF5986;
+  border-color: #DF5986;
+}
+.font-height{
+  line-height:1.3
+}
+.bds_more,.bds_sina,.bds_weixin,.bds_qzone{
+  margin-top: 11px;
+  background-image:url("../img/product_detail/icons_0_16.png") ;
+  background-position: 0px 0px;
+  display:inline-block;
+  height:20px;
+  width:16px;
+  margin-right:10px
+}
+.bds_sina{
+  background-position: 0 -104px;
+}
+.bds_weixin{
+  background-position: 0 -1613px;
+}
+.bds_qzone{
+  background-position: 0 -52px;
+}
